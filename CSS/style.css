@@ -253,13 +253,170 @@ nav li>a:hover {
 
 
 
+/* footer */
+
+#copyright-row {
+    background-color: #ffde00;
+}
+
+
+footer ,.container {
+
+}
 
 
 
+footer .row {
+    position: relative;
+    background-color: #808285;
+    z-index: 1;
+    
+}
+
+
+#copyright-row .container {
+    text-align: center;
+    padding: 16px 0;
+    color: #515254;
+    font-size: 0.9rem;
+}
+
+
+footer>.row .col {
+    height: 215px;
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
 
 
 
+footer>.row .col:nth-child(4) {
+    background-color: #515254;
+}
 
+footer>.row .col h3 {
+    padding-bottom: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+footer>.row .col a {
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: none;
+    line-height: 1.6;
+}
+
+footer>.row .col a:hover {
+    color: #ffde00;
+
+    text-decoration: underline;
+}
+
+footer>.row .col p {
+    font-size: 0.7rem;
+    color: white;
+    padding-bottom: 16px;
+}
+
+#tel2 {
+    padding-left: 23px;
+    line-height: 1.1rem;
+}
+
+footer>.row .col:last-child {
+    padding-left: 15px;
+}
+
+footer>.row::after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    width: 25%;
+    background-color: #515254;
+    
+}
+
+
+/* aside */
+
+aside {
+    
+    position: fixed;
+    font-weight: bold;
+    color: white;
+    background-color:#515254 ;
+    padding: 5px;
+    right: -38px;
+    bottom: 25%;
+    transform: rotate(270deg);
+
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+aside:hover {
+    right: -31px;
+}
+
+aside>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+aside a ion-icon {
+    color: black;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+
+#bubble-wrapper {
+    position: relative;
+    display: inline-block;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: #ffde00;
+    padding: 4px;
+}
+
+#bubble-wrapper::before {
+    display: inline-block;
+    content: "";
+    background-color: #ffde00;;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    from {
+        transform: scale(0);
+        opacity: 100%;
+    }
+
+    to {
+        transform: scale(15);
+        opacity: 0%;
+    }
+}
 /* display: block;
     content: "";
     border-left: 5px solid black;
