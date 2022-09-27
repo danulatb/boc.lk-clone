@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    
+    <style>
+        #outer-div {
+        
+            position: absolute;
+            background-color: yellow;
+            z-index: 1;
+            width: 250px;
+            height: 250px;
+
+        }
+
+        #div-1 {
+            background-color: red;
+            position: absolute;
+            z-index: 0;
+            top: 0;
+            left: 0;
+            width: 75px;
+            height: 75px;
+        }
+
+        #div-2 {
+            position: absolute;
+            background-color: black;
+            width: 100px;
+            height: 100px;
+            left: 50px;
+        }
+
+     
+
+        
+    </style>
+
+</head>
+<body>
+    <div id="outer-div">
+        <div id="div-1"></div>
+    </div>
+
+    <div id="div-2"></div>
+</body>
+</html>
