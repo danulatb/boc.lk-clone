@@ -492,3 +492,77 @@ main>.row:first-child>.container>.col>ul li:first-child {
     /* text-overflow: ellipsis; */
 
 }
+
+
+
+main>.row:nth-child(2)>.container>.col:first-child {
+    background-color: #3f4da1;
+    width: 75%;
+    height: 100px;
+    float: left;    
+
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2) {
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2) svg {
+    height: 30px;
+}
+
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul {
+    border-top: 1px solid #eceece;
+
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li {
+    display: table;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #ccc;
+    
+
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li:hover {
+    background-color: #525252;
+    color: #ff9d1e;
+
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li:hover a,
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li:hover svg{
+    
+    color: #ff9d1e;
+    fill: #ff9d1e;
+
+}
+
+
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li>a {
+    display: table-row;
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li>a>div {
+    display: table-cell;
+    padding: 10px 10px 10px 20px;
+    vertical-align: middle;
+    line-height: 1.1rem;
+
+}
+
+main>.row:nth-child(2)>.container>.col:nth-child(2)>ul>li>a>div:first-child {
+    width: 90%;
+
+}
