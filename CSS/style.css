@@ -351,7 +351,7 @@ aside {
     position: fixed;
     font-weight: bold;
     color: white;
-    background-color:#515254 ;
+    background-color:#1f1f1f ;
     padding: 5px;
     right: -38px;
     bottom: 25%;
@@ -375,6 +375,7 @@ aside a ion-icon {
     color: black;
     font-size: 1rem;
     vertical-align: middle;
+    transform: rotate(90deg);
 }
 
 
@@ -417,111 +418,77 @@ aside a ion-icon {
         opacity: 0%;
     }
 }
-/* display: block;
-    content: "";
-    border-left: 5px solid black;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;   
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%); */
 
-/* .container {
-    width: 1170px;
-    overflow: hidden;
-}
 
-nav,ul {
-    overflow: hidden;
+/* Main Layout */
+
+main>.row:first-child , main>.row:first-child>.container {
+    height: 90px;
 }
 
 
 
-main {
-    background-color: aqua;
+main>.row:first-child>.container>.col{
+    padding: 20px 10px 0;
+    height: 100%;
 }
 
-footer {
-    background-color: blueviolet;
-}
-
-
-
-#top-row {
-    padding: 10px 0px;
-    height: 80px;
-
-}
-
-#top-row>.container {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#nav-row {
-    background-color: blueviolet;
-}
-
-#logo {
-    height: 60px;
-    padding-left: 15px;
-}
-
-#top-row>.container>img {
+main>.row:first-child>.container>.col:first-child {
+    width: 75%;
     float: left;
 }
 
-#top-row>.container>div {
+main>.row:first-child>.container>.col:last-child {
+    width: 25%;
     float: right;
 }
 
-nav li:hover {
-    text-decoration: underline;
+main>.row:first-child>.container>.col>ul {
+
+    float: left;
+    width: 100%;
+}
+
+main>.row:first-child>.container>.col>ul li {
+    text-align: right;
+    float: left;
+    width: 20%;
+
+}
+
+main>.row:first-child>.container>.col>ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+
+}
+
+main>.row:first-child>.container>.col>ul li a:hover{
     
+    text-decoration: underline
+
 }
 
-nav li {
-    cursor: pointer;
-}
-
-#nav-lang {
-    padding-bottom: 5px;
-}
-
-
-#nav-lang li {
-    float: right;
-    padding: 5px 10px;
-    font-size: 0.8rem;
-}
-
-#nav-lang li:hover {
-    color: #ff9d1e;
-}
-
-#main-nav li {
-    float: left;
-    padding: 10px 20px 0;
-    font-size: 0.8rem;
-}
-
-#main-nav {
-    float: left;
-}
-
-#smi-container {
+main>.row:first-child>.container>.col>ul li a:hover > img{
     
-    padding: 7px;
+    outline: 3px solid #ffde00;
+
+}
+
+
+
+main>.row:first-child>.container>.col>ul li .country-code {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.7rem;
 
 
 }
 
-#smi-container li {
-    float: left;
-    padding: 5px;
-    background-color: yellow;
-    margin-left: 10px;
+main>.row:first-child>.container>.col>ul li:first-child {
+    white-space: nowrap;
+    padding: 10px 0;
+    /* text-overflow: ellipsis; */
 
-
-} */
+}
