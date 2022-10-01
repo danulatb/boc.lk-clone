@@ -23,8 +23,8 @@ Main focus aspects,
 - `CSS` Pseudo-classes / Elements.
 
 Not used,
-- CSS grid/flex properties.
-- CSS responsive design .
+- `CSS` grid/flex properties.
+- `CSS` responsive design .
 
 
 ## Installation<hr /> 
