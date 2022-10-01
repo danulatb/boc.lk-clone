@@ -55,5 +55,5 @@ All the extenal lins will be link to original website .
 
 - [Bank of Ceylon](https://www.boc.lk/)
 - [Ionic Icons](https://ionic.io/ionicons)
-- [Google Fonts] (https://fonts.google.com/)
-- [Git Hub Pages] (https://pages.github.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Git Hub Pages](https://pages.github.com/)
