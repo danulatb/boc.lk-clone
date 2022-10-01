@@ -6,7 +6,6 @@
 ![site](/img/site.gif)
 
 ## Description
-<hr /> 
 This is a clone webpage of a static orginal website.<br>
 
 A clone of the homepage of original webisite *https://www.boc.lk/* to practise and demonstrate the ability of designing of webpage using basic tools and knowledge of HTML and CSS. <br>
@@ -27,23 +26,23 @@ Not used,
 - `CSS` responsive design .
 
 
-## Installation<hr /> 
+## Installation
 
 1. go to repo link &nbsp;   `https://github.com/danulatb/boc.lk-clone`
 2. fork & create a copy of the repo.
 3. clone the copied repo&nbsp; 
 `git clone https://github.com/your_username_/boc.lk-clone.git` 
 
-## Usage<hr /> 
+## Usage
 
 Project can be used to pracise and improve basic `HTML` and `CSS` skills
 
-## Credits<hr /> 
+## Credits
 
 All the design rights exclusively belong with *www.boc.lk*. This is only for educational purposes.
 All the extenal lins will be link to original website .
 
-## Built With<hr /> 
+## Built With
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -51,7 +50,7 @@ All the extenal lins will be link to original website .
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## Acknowledgments<hr /> 
+## Acknowledgments
 
 - [Bank of Ceylon](https://www.boc.lk/)
 - [Ionic Icons](https://ionic.io/ionicons)
