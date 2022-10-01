@@ -828,10 +828,11 @@ main>.row:nth-child(4)>.container>.col:nth-child(2){
 
 #pop-up {
     position: fixed;
+    border: 2px solid red;
     left: 10px;
     bottom: 10px;
     width: 450px;
-    padding: 25px;
+    padding: 27px;
     background-color: #8a8a8aee;
     z-index: 999;
     border-radius: 8px;
@@ -843,7 +844,7 @@ main>.row:nth-child(4)>.container>.col:nth-child(2){
     position: absolute;
     left: 10px;
     top: 2px;
-    padding: 10px 0;
+    padding: 12px 0;
     cursor: pointer;
 }
 
@@ -853,7 +854,8 @@ main>.row:nth-child(4)>.container>.col:nth-child(2){
 
 
 #pop-up p {
-   padding-top: 15px;
+   padding-top: 18px;
+   font-size: 1.1rem;
 }
 
 #close-wrapper ion-icon {
